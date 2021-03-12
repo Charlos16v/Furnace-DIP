@@ -11,8 +11,8 @@ public class RoomTemperature {
     }
 
     // Singleton getInstance
-    public static RoomTemperature getInstance(double temperature){
-        if (instance == null){
+    public static RoomTemperature getInstance(double temperature) {
+        if (instance == null) {
             instance = new RoomTemperature(temperature);
         }
         return instance;
@@ -26,7 +26,7 @@ public class RoomTemperature {
         return this.temperature;
     }
 
-    public void incrementTemperature(double temperatureIncrement){
+    public void incrementTemperature(double temperatureIncrement) {
         this.temperature += temperatureIncrement;
     }
 }

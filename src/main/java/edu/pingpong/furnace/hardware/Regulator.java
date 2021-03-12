@@ -10,7 +10,7 @@ public class Regulator {
 
     public void regulate(
             Thermometer thermometer, Heater heater,
-                         double minTemp, double maxTemp, RoomTemperature temperature
+            double minTemp, double maxTemp, RoomTemperature temperature
     ) {
         RegulatorDisplayCodes code;
         while (thermometer.read(temperature) < maxTemp) {
