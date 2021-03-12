@@ -25,4 +25,8 @@ public class RoomTemperature {
     public double getTemperature() {
         return this.temperature;
     }
+
+    public void incrementTemperature(double temperatureIncrement){
+        this.temperature += temperatureIncrement;
+    }
 }
