@@ -33,7 +33,7 @@ public class App {
 
 
         Jedi yoda = new Jedi();
-        System.out.println( "\nStarting Yoda... " );
+        System.out.println("\nStarting Yoda... ");
         regulator.regulate(thermometer, yoda, minTemp, maxTemp, temperature);
         yoda.speak();
     }
